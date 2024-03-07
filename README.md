@@ -6,12 +6,11 @@ Setup:
 ![Screenshot 2024-03-06 200346](https://github.com/odaydid002/Rp_pi_pico_Gyro_Mouse/assets/88271352/6b561d8d-b931-4132-99e6-6c7ff05e234f)
 
 
-MPU6050
-
-  VCC  ------>   3.3v OUT (Pin 37)
-  GND  ------>   Any GND pin in board
-  SCL  ------>   I2C1 SCL GP1 (Pin 2)
-  SDA  ------>   I2C0 SDA GP0 (Pin 1)
+MPU6050:
+VCC  ------>   3.3v OUT (Pin 37)
+GND  ------>   Any GND pin in board
+SCL  ------>   I2C1 SCL GP1 (Pin 2)
+SDA  ------>   I2C0 SDA GP0 (Pin 1)
 
 Buttons: Use any GPIO pins for the buttons in our exemple we use GP12 for right click and GP13 for left click 
   Connect the button between GND and GPIO pin.
