@@ -8,10 +8,10 @@ Setup:
 
 MPU6050
 
-  VCC  ------>   3.3v OUT (Pin 37)
-  GND  ------>   Any GND pin in board
-  SCL  ------>   I2C1 SCL GP1 (Pin 2)
-  SDA  ------>   I2C0 SDA GP0 (Pin 1)
+  VCC  ------>   3.3v OUT (Pin 37) \n
+  GND  ------>   Any GND pin in board \n
+  SCL  ------>   I2C1 SCL GP1 (Pin 2) \n
+  SDA  ------>   I2C0 SDA GP0 (Pin 1) \n
 
 Buttons: Use any GPIO pins for the buttons in our exemple we use GP12 for right click and GP13 for left click 
   Connect the button between GND and GPIO pin.
